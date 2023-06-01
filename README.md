@@ -12,15 +12,22 @@
 ---
 
 ### 3. 评价指标
+
 <img width="70%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/f02bcaef-a130-4593-90cf-5f02eddcd967">
 
-人工评价中考虑 4 个方面的文本质量。
+人工评价中考虑 8 个方面的文本质量，分数都是越高越好。
 
 - **1. 背景调查问题数量**
+受访者的背景直接关系问卷的结论，比如说主题是调研老年人使用电子设备情况，由于线上问卷，无法准确约束填写对象，因此有可能是年轻人填写，因此，需要做个人信息调查。一份高质量问卷应该包含用户背景调查、用户行为调查、用户态度调查。
+填写背景调查问题个数，例如：姓名/性别/专业等
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/13f2ef6c-550d-4f1e-9086-92e627565821">
 
 
 - **2. 具体度Specificity（1-5）**: 问卷整体问题的具体程度。
+一份高质量的问卷中的问题应该是具体清晰的，而不应该是抽象宏观的。
 > 举例说明：
+
+<img width="90%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/175cd99f-3e99-4145-af99-96598bd4ebb8">
 
 | 评分 | 标准                                        |
 | ---- | ------------------------------------------- |
@@ -28,8 +35,10 @@
 | 3    | 大约一半的句子具体.                           |
 | 1    | 所有句子很抽象，无法具体到细节.              |
 
+
 - **3. 相关性Relevance（1-5）**: 问卷中问题与主题不相关的比例
-举例说明：
+> 举例说明：
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/39b098ed-0aad-4763-a7a4-32cf9f5ab1ea">
 
 | 评分 | 标准                         |
 | ---- | ---------------------------- |
@@ -47,7 +56,8 @@
 | 1    | 问题顺序严重不合理，阅读困难。 |
 
 - **5. 选项合理性Rationality（1-5）**: 问卷中选项与问题不匹配、不互斥、不完备
-举例说明：
+> 举例说明：
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/66ffc3fb-9daa-4e18-ab79-a1f30da33c4a">
 
 | 评分 | 标准                                 |
 | ---- | ------------------------------------ |
@@ -57,6 +67,7 @@
 
 - **6. 数据差异化Distinction（1-5）**: 问卷整体问题的具体程度。
 > 举例说明：
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/7aedc4e4-38ac-4bd7-b6c6-779a80ecdb07">
 
 | 评分 | 标准                                        |
 | ---- | ------------------------------------------- |
@@ -74,6 +85,7 @@
 | 1    | 所有句子都难以阅读.              |
 
 - **8. 非重复度Non-Repetition（1-5）**: 问卷中句子重复比例。
+<img width="707" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/4fcffff4-5871-4e31-b765-16959692604b">
 
 举例说明：
 
@@ -86,4 +98,3 @@
 # High-level
 
 - **整体质量（排序）**: 高质量->低质量: 2 0 1
-- **支撑度（仅根据问卷内容生成问卷标题）**: 为每个问卷写一个标题，与原始标题计算bleu值
