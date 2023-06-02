@@ -77,8 +77,8 @@ elif MODE == "CN":
 
 results = {}
 
-with jsonlines.open(TEST_SAMPLES_FILE) as reader:
-    samples = list(reader)
+# with jsonlines.open(TEST_SAMPLES_FILE) as reader:
+#     samples = list(reader)
 
 for model_name in MODEL_LIST:
     with jsonlines.open('./dataset/' + model_name + '.jsonl') as reader:
