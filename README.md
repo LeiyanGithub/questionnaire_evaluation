@@ -13,7 +13,7 @@
 
 ### 3. 评价指标
 
-<img width="70%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/f02bcaef-a130-4593-90cf-5f02eddcd967">
+<img width="90%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/891dd2a1-7a47-4b33-b4b8-42b50f24f4f1">
 
 人工评价中考虑 8 个方面的文本质量，分数都是越高越好。
 
