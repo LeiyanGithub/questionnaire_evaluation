@@ -48,11 +48,15 @@
 
 - **4. 顺序合理性Order（1-5）**: 问卷中问题顺序合理性
 举例说明：
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/ab30011f-2aec-4759-9998-e00e7a51b7c1">
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/a7424b02-8289-4ada-8803-870130f8c814">
+<img width="80%" alt="image" src="https://github.com/LeiyanGithub/questionnaire_evaluation/assets/45895439/b8d420d5-9694-41be-92bc-8fc7f78e9fec">
+
 
 | 评分 | 标准                         |
 | ---- | ---------------------------- |
-| 5    | 问题逻辑非常流畅.  |
-| 3    | 问题顺序部分混乱。|
+| 5    | 问题逻辑流畅.  |
+| 3    | 问题顺序需要部分调整。|
 | 1    | 问题顺序严重不合理，阅读困难。 |
 
 - **5. 选项合理性Rationality（1-5）**: 问卷中选项与问题不匹配、不互斥、不完备
